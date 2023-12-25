@@ -25,15 +25,3 @@ highlight_code = false
 #sam_bottom_menu = true
 
 list_pages = true
-
-[[extra.header_nav]]
-name = "/home/"
-url = "/"
-
-[[extra.header_nav]]
-name = "/galeries/"
-url = "/galleries"
-
-[[extra.header_nav]]
-name = "/à_propos/"
-url = "/about"
