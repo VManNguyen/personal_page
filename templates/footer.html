@@ -1,0 +1,17 @@
+<hr>
+<div class=footContainer>
+  <div class="footLeft">
+    <p>
+    © Tous droits réservés - 2023 <br>
+      Compilé avec <a target="_blank" rel="noopener noreferrer" href="https://www.getzola.org">Zola</a>
+      avec un thème <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/anemone">anemone</a> 
+      personnalisé &amp; et les couleurs  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/veqev">
+          veqev</a>.<br>
+    </p>
+  </div>
+  {% if config.generate_feed %}
+  <div class="footRight">
+    <a class="icons__background" target="_blank" rel="noopener noreferrer" href="{{ get_url(path="atom.xml", trailing_slash=false) }}" title="Subscribe via RSS for updates."><svg class="icons icons__background"><use href="{{ get_url(path='icons.svg#rss', trailing_slash=false) | safe }}"></use></svg></a>
+  </div>
+  {% endif %}
+</div>

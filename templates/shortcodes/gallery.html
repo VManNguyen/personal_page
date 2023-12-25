@@ -1,0 +1,30 @@
+<div class="grid">
+{% for asset in page.assets -%}
+  {%- if asset is matching("[.](jpg|png|JPG|PNG)$") -%}
+    {% set image = resize_image(path=asset, width=720, op="fit_width") %}
+    <div>
+        {% set meta = get_image_metadata(path=asset) %}
+        <a href="{{ get_url(path=asset) }}" 
+           target="_blank"
+           class="glightbox" data-gallery="gallery1">
+            <img src="{{ image.url }}" />
+        </a>
+    </div>
+  {%- endif %}
+{%- endfor %}
+</div>
+
+        <script type="text/javascript">
+            const lightbox = GLightbox({ 
+                            selector: ".glightbox",
+                            touchNavigation: true,
+                            loop: false,
+                            dragToleranceX: 100,
+                            dragToleranceY: 150,
+                            zoomable: false,
+                            preload: false
+                        });
+            lightbox.init()
+        </script>
+
+

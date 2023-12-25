@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="md-content">
+    <div class="index-image-container">
+        <img src="{{ get_url(path='index-crop.jpg') }}" />
+    </div>
+    {{ section.content | safe }}
+
+    {% if config.extra.list_pages %}
+
+    {% if paginator %}
+    {% set pages = paginator.pages %}
+    {% else %}
+    {% set pages = section.pages %}
+    {% endif %}
+
+    <ul class="titleList">
+    </ul>
+
+    {% if paginator %}
+    <div class="metaData">{% if paginator.previous %}<a href="{{ paginator.first }}">⥶</a> &nbsp <a href="{{ paginator.previous }}"><</a>{% endif %} &nbsp {{ paginator.current_index }} / {{ paginator.number_pagers }} &nbsp {% if paginator.next %}<a href="{{ paginator.next }}">></a> &nbsp <a href="{{ paginator.last }}">⥸</a>{% endif %}</div>
+    {% endif %}
+
+    {% endif %}
+</div>
+{% endblock content %}
