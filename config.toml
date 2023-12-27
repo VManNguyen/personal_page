@@ -17,11 +17,10 @@ highlight_code = false
 [extra]
 # Put all your custom variables here
 
-#sam_menu = [
-    #{ text = "galeries", link = "/galleries" },
-    #{ text = "à propos", link = "/about" },
-#]
-
-#sam_bottom_menu = true
-
 list_pages = true
+
+[[extra.header_nav]]
+name = "/home/"
+url = "/"
+
+favicon = ""

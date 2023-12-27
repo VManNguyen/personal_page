@@ -1,5 +1,7 @@
 +++
-title = "Informations professionnelles"
+title = "Van Man Nguyen"
+author = "Van Man Nguyen"
+description = "Page personnelle de Van Man Nguyen, ingénieur-chercheur et expert technique HPC et MPI auprès d'Eviden. Titulaire d'un doctorat en informatique sur l'analyse et l'optimisation à la compilation des codes MPI"
 template = "page-cv.html"
 
 +++
@@ -21,8 +23,14 @@ MPI One-Sided.
 
 **Mots-clés** : Compilation, MPI, Analyse statique, Optimisation de code
 
+## Contact
+- email : van-man [point] nguyen [arobase] eviden [point] com
+- [github](https://github.com/VManNguyen), principalement des bouts de projets personnels
+- [linkedin](https://www.linkedin.com/in/van-man-nguyen-126893140/)
+
+
 ## Encadrement
-- 2023 - maintenant : Radjasouria Vinayagame, *doctorant*, avec Emmanuelle Saillard (co-directrice, Inria Bordeaux), Samuel Thibault (co-directeur, Inria Bordeaux), et Marc Sergent (co-encadrant, Eviden)
+- 2023 - maintenant : Radjasouria Vinayagame, *doctorant*, avec Emmanuelle Saillard (co-directrice, Inria Bordeaux), Samuel Thibault (co-directeur, Inria Bordeaux), et Marc Sergent (co-encadrant, Eviden).
 
 ## Enseignement
 - 2020 - 2023, vacataire : **Compilation avancée**, *3è année ENSIIE (équivalent M2)*. Construction d'une passe compilation GCC pour vérifier les séquences d'appels de communications collectives MPI. Manipulations du CFG et utilisation des notions de domination et post-domination d'un noeud.
@@ -69,9 +77,10 @@ programmes MPI en identifiant les bornes de ces intervalles et en suggérant
 des modifications de code à appliquer. Les trois processus que nous proposons 
 ont été testés sur plusieurs benchmarks, dont des miniapps et des codes CORAL.
 
-- Co-dirigée par Denis Barthou (Inria Bordeaux) et Patrick Carribault (CEA)
-- Co-encadrée par Emmanuelle Saillard (Inria Bordeaux) et Julien Jaeger (CEA)
-- Soutenue le 16 décembre 2022, à l'Université de Bordeaux
+- Thèse préparée de novembre 2019 à décembre 2022, au CEA et à l'Inria Bordeaux.
+- Co-dirigée par Denis Barthou (Inria Bordeaux) et Patrick Carribault (CEA).
+- Co-encadrée par Emmanuelle Saillard (Inria Bordeaux) et Julien Jaeger (CEA).
+- Soutenue le 16 décembre 2022, à l'Université de Bordeaux.
 
 ### Auteur principal
 - Compas 2021 (poster), *Van Man Nguyen, Emmanuelle Saillard, Julien Jaeger, Patrick Carribault, et Denis Barthou* : **Tools for Efficient MPI Nonblocking Communications**
@@ -82,6 +91,8 @@ ont été testés sur plusieurs benchmarks, dont des miniapps et des codes CORAL
 - [Correctness 2023](https://dx.doi.org/10.1145/3624062.3624086), *Radjasouria Vinayagame, Van Man Nguyen, Marc Sergent, Samuel Thibault, et Emmanuelle Saillard* : **Rethinking Data Race Detection in MPI-RMA Programs** [[hal](https://hal.science/hal-04272399v1)]
 - [Parallel Computing 2020](https://dx.doi.org/10.1016/j.parco.2021.102859), *Joachim Protze, Marc-André Hermanns, Matthias S Müller, Van Man Nguyen, Emmanuelle Saillard, Julien Jaeger, Patrick Carribault, et Denis Barthou* : **MPI detach — Towards automatic asynchronous local completion** [[hal](https://hal.science/cea-03537990v1)]
 
-## Contact
-- email : van-man [point] nguyen [arobase] eviden [point] com
-- [github](https://github.com/VManNguyen), principalement des bouts de projets personnels
+## Parcours scolaire
+- 2016 - 2019 : Ecole Nationale Supérieure d'Informatique pour l'Industrie et l'Entreprise (ENSIIE), parcours Calcul Intensif et Données Massives (CIDM - HPC).
+- 2016 : Licence de mathématiques appliquées, à l'Université d'Evry, parallèlement à la première année de l'ENSIIE.
+- 2014 - 2016 : Classe Préparatoire aux Grandes Ecoles, MPSI/MP, au Lycée du Parc des Loges à Evry.
+- 2014 : Baccalauréat scientifique.
