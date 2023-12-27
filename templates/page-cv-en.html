@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="md-content">
+
+<div class="about-head">
+    <img src="{{ get_url(path='/portrait.jpg')}}" class="about-portrait"/>
+    <div class="about-portrait-text">
+        <div class="about-portrait-headline">
+            Van Man Nguyen
+        </div>
+        <div class="about-portrait-subtext">
+            R&amp;D Engineer, Technical Expert at Eviden
+        </div>
+    </div>
+</div>
+
+<div class="about-content">
+{{ section.content | safe }}
+</div>
+</div>
+
+{% endblock content %}

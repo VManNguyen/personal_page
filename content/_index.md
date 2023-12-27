@@ -9,7 +9,7 @@ template = "page-cv.html"
 Mon domaine de recherche porte sur l'analyse à la compilation des codes de 
 simulation HPC, en particulier des programmes MPI. Cela nous permet de détecter
 au plus tôt des erreurs de programmation pouvant corrompre des données en raison 
-d'accès concurrents aux données, ou pouvant empêcher la finition du programme.
+d'accès concurrents, ou pouvant empêcher la finition du programme.
 Les résultats de cette analyse statique peuvent également nous permettre de
 transformer le code à la compilation, par exemple pour dégager du potentiel de
 recouvrement. 

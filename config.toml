@@ -1,5 +1,6 @@
 # The URL the site will be built for
 base_url = "https://vanmannguyen.github.io/personal_page/"
+default_language = "fr"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -20,7 +21,13 @@ highlight_code = false
 list_pages = true
 
 [[extra.header_nav]]
-name = "/home/"
-url = "/"
+name = "/home[fr]/"
+url = "https://vanmannguyen.github.io/personal_page/"
+
+[[extra.header_nav]]
+name = "/home[en]/"
+url = "https://vanmannguyen.github.io/personal_page/en"
 
 favicon = ""
+
+[languages.en]
